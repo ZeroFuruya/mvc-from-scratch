@@ -2,7 +2,7 @@
 
 namespace App;
 
-class MainController{
+class MainController{ // 3rd
     public function render($view, $data = []){
         extract($data);
 

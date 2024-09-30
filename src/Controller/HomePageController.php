@@ -4,7 +4,7 @@ namespace App\Controller;
 
 use App\MainController;
 
-class HomePageController extends MainController{
+class HomePageController extends MainController{ // 4th
     public function index(){
         $this->render("index");
     }

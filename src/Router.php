@@ -1,7 +1,7 @@
 <?php
 namespace App;
 
-class Router{
+class Router{ // 2nd
     protected $routes = [];
 
     private function addRoutes($route, $controller, $action, $method){

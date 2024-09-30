@@ -12,5 +12,7 @@
             "email": "99241183+ZeroFuruya@users.noreply.github.com"
         }
     ],
-    "require": {}
+    "require": {
+        "twbs/bootstrap": "5.3.3"
+    }
 }
