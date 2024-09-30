@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
-    <link rel="stylesheet" href="styles/bootstrap.min.css">
-</head>
+    <link rel="stylesheet" href="<?php echo '/style.css'; ?>"> 
+    <!-- fix css -->
+  </head>
 <body>
-    
-    <script src="styles/bootstrap.bundle.min.js"></script>
+  <div class="container">Login</div>
 </body>
 </html>
