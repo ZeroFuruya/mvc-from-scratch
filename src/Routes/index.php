@@ -1,12 +1,14 @@
 <?php
 
-namespace App;
+namespace App\Routes;
 
 use App\Router;
 use App\Controller\HomePageController;
 
 $router = new Router();
 
-$router->get('/mvc-from-scratch/public/', HomePageController::class, 'index');
+$router->get('/', HomePageController::class, 'index');
+
+$router->get('/login', HomePageController::class, 'login');
 
 $router->dispatch();
