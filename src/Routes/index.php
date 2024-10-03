@@ -3,12 +3,14 @@
 namespace App\Routes; // 5th
 
 use App\Router;
-use App\Controller\HomePageController;
+use App\Controller\HomeController;
 
 $router = new Router();
 
-$router->get('/', HomePageController::class, 'index');
+$router->get('/', HomeController::class, 'index');
 
-$router->get('/login', HomePageController::class, 'login');
+$router->get('/login', HomeController::class, 'login');
+
+$router->get('/multiplication', HomeController::class, 'multiplication');
 
 $router->dispatch();
