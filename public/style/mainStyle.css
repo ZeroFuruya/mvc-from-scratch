@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root{
+    --montserrat: "Montserrat", system-ui;
+    --bold: 800;
+    --bold-light: 600;
+
+    --primary-color: #FDF5E6;
+    --secondary-color: #BC885D;
+    --accent-color: #4D908E;
+}
+
+body{
+    background-image: url(../images/layered-peaks-haikei.svg);
+    background-size: cover; /* This stretches the image to cover the entire screen */
+    background-position: center; /* Keeps the image centered */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh; /* Ensures the background takes up the full viewport height */
+    margin: 0;
+}
+
+.grid-container{
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.title{
+    background-color: var(--accent-color);
+    width: 50vw;
+    height: 50vh;
+}
+
+
+/* Media Queries */
+
+/* Extra small devices (phones, < 576px) */
+@media (max-width: 575.98px) {
+    /* Styles for extra small devices */
+}
+  
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Styles for small devices */
+  .title{
+    background-color: var(--accent-color);
+    width: 90vw;
+    height: 50vh;
+}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Styles for medium devices (tablets) */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* Styles for large devices */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* Styles for extra large devices */
+}
