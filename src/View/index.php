@@ -11,11 +11,13 @@
 <body>
     
     <div class="grid-container">
-      <div class="title">
-        <a href="/login">Login</a>
+      <div class="title-container">
+        <a href="/login">
+          <h1 class="title">Zero To-Do App</h1>
+        </a>
         <a href="/multiplication">Multiplication</a>
       </div>
     </div>
-
+    <!-- finish the CSS -->
 </body>
 </html>

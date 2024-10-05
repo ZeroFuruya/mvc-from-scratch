@@ -31,10 +31,18 @@ body{
     height: 100vh;
 }
 
-.title{
+.title-container{
     background-color: var(--accent-color);
     width: 50vw;
     height: 50vh;
+    position: relative;
+    top: -7rem; /* Adjust the value as needed */
+}
+
+.title{
+    font-size: 5rem;
+    /* continue styling */
+    /* finish the design in just a day after you comeback */
 }
 
 
@@ -43,29 +51,49 @@ body{
 /* Extra small devices (phones, < 576px) */
 @media (max-width: 575.98px) {
     /* Styles for extra small devices */
+    .title-container{
+        background-color: var(--accent-color);
+        width: 90vw;
+        height: 50vh;
+        }
 }
   
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
   /* Styles for small devices */
-  .title{
+  .title-container{
     background-color: var(--accent-color);
-    width: 90vw;
+    width: 80vw;
     height: 50vh;
-}
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
   /* Styles for medium devices (tablets) */
+  .title-container{
+    background-color: var(--accent-color);
+    width: 70vw;
+    height: 50vh;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
   /* Styles for large devices */
+  .title-container{
+    background-color: var(--accent-color);
+    width: 60vw;
+    height: 50vh;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   /* Styles for extra large devices */
+  .title-container{
+    background-color: var(--accent-color);
+    width: 50vw;
+    height: 50vh;
+    }
 }
